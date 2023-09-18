@@ -1,0 +1,96 @@
+h1 {
+    /* color:#006400 ; */
+    font-size: 60pt;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40pt;
+    /* color:#458728; */
+    /* margin: 0 auto; */
+
+}
+a {
+    font-size: 20pt;
+    color: #3d251e;
+    font-weight: bold;
+    border-radius: 10%;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+a:hover {
+    color: #C4A484;
+}
+
+.heading {
+    width: 300px;
+    /* margin: 0 auto; */
+}
+img {
+    width: 100px;
+    height: 100px;
+    outline: 2px solid white;
+}
+/* flex container containing all images. images are now fllex items */
+.flex {
+    /* margin: 0 auto; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* a property currently used to set flex items onto a new line */
+    outline: 2px solid #006400;
+    height: 600px;
+    width: 500px;
+    padding: 15px;
+
+}
+
+
+
+
+/* OOCSS Styles for editing later!!*/
+
+/* display */
+.flex {
+    display: flex;
+}
+/* background-colors */
+.cream {
+    color: #C4A484;
+}
+/* .light-green {
+    background-color: #eafeea;
+} */
+/* colors */
+.white {
+    color: #ffffff;
+}
+
+.green {
+    color: #458728;
+}
+
+.dark-green {
+    color: #006400;
+}
+
+.brown {
+    color: #3d251e;
+}
+
+/* border colors */
+
+.borderBrown{
+    outline: 2px solid #3d251e;
+
+}
+
+
+
+.remove {
+    text-decoration: none;
+}
+
+.center {
+    margin: 0 auto;
+    /*find the alternate way to do this */
+}
